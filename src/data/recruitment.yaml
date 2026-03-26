@@ -1,0 +1,39 @@
+intro: "Northstar is open to students who enjoy careful thinking and steady improvement. You do not need to know everything on day one. What matters more is curiosity, consistency, and the willingness to learn in public."
+
+tracks:
+  - "Web"
+  - "Pwn"
+  - "Reverse"
+  - "Crypto"
+  - "Misc"
+
+targets:
+  - "Students who enjoy solving technical problems step by step."
+  - "Beginners who want a structured path into security and CTF."
+  - "Members who are willing to write notes, share methods, and help peers grow."
+  - "People who can stay calm when a problem takes longer than expected."
+  - "Students interested in either offense, defense, tooling, or long-term security fundamentals."
+
+requirements:
+  - title: "Basic curiosity"
+    description: "You do not need a full skill set yet, but you should enjoy reading, testing, and asking why."
+  - title: "Steady practice"
+    description: "We value consistent weekly effort more than short bursts of enthusiasm."
+  - title: "Collaborative mindset"
+    description: "Good writeups, calm communication, and respectful teamwork matter here."
+  - title: "Patience with hard problems"
+    description: "Some progress comes slowly. We care more about disciplined iteration than instant answers."
+
+faq:
+  - question: "Do I need prior CTF experience?"
+    answer: "No. Beginners are welcome if they are willing to learn patiently and practice regularly."
+  - question: "Which direction should I choose first?"
+    answer: "Start from the area that keeps your interest. We can help you narrow it down after a few training tasks."
+  - question: "Is this only for competition-focused students?"
+    answer: "Not only. CTF is our training ground, but we also value security basics, tooling habits, and long-term growth."
+
+contact:
+  label: "Recruitment Mail"
+  value: "join@northstar.example"
+  href: "mailto:join@northstar.example"
+  note: "A short self-introduction, your grade, and the directions you are curious about are enough."

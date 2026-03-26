@@ -1,0 +1,35 @@
+---
+import AboutSection from "../components/AboutSection.astro";
+import HeroSection from "../components/HeroSection.astro";
+import HonorsSection from "../components/HonorsSection.astro";
+import MembersSection from "../components/MembersSection.astro";
+import RecruitmentSection from "../components/RecruitmentSection.astro";
+import TimelineSection from "../components/TimelineSection.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import {
+  getHonorsData,
+  getMembersData,
+  getRecruitmentData,
+  getSiteData,
+  getTimelineData,
+} from "../lib/data";
+
+const [site, members, honors, timeline, recruitment] = await Promise.all([
+  getSiteData(),
+  getMembersData(),
+  getHonorsData(),
+  getTimelineData(),
+  getRecruitmentData(),
+]);
+---
+
+<BaseLayout site={site}>
+  <main>
+    <HeroSection brand={site.brand} />
+    <AboutSection section={site.sections.about} />
+    <MembersSection section={site.sections.members} items={members.items} />
+    <HonorsSection section={site.sections.honors} items={honors.items} />
+    <TimelineSection section={site.sections.timeline} items={timeline.items} />
+    <RecruitmentSection section={site.sections.recruitment} recruitment={recruitment} />
+  </main>
+</BaseLayout>

@@ -1,0 +1,28 @@
+---
+import type { SiteData } from "../types/content";
+
+interface Props {
+  brandName: string;
+  logo: string;
+  navigation: SiteData["navigation"];
+}
+
+const { brandName, logo, navigation } = Astro.props;
+---
+
+<header class="site-header" data-site-header>
+  <div class="shell site-header__inner">
+    <a class="brand" href="#home" aria-label={`${brandName} home`}>
+      <img src={logo} alt="" width="44" height="44" />
+      <span>{brandName}</span>
+    </a>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      {navigation.map((item) => (
+        <a href={item.href} data-anchor-link>
+          {item.label}
+        </a>
+      ))}
+    </nav>
+  </div>
+</header>

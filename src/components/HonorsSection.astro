@@ -1,0 +1,35 @@
+---
+import HonorCard from "./HonorCard.astro";
+import SectionHeading from "./SectionHeading.astro";
+
+import type { Honor, SiteData } from "../types/content";
+
+interface Props {
+  section: SiteData["sections"]["honors"];
+  items: Honor[];
+}
+
+const { section, items } = Astro.props;
+---
+
+<section id="honors" class="section section--honors section-anchor">
+  <div class="shell">
+    <SectionHeading
+      eyebrow={section.eyebrow}
+      title={section.title}
+      description={section.description}
+    />
+
+    {items.length > 0 ? (
+      <div class="honor-grid">
+        {items.map((honor) => (
+          <HonorCard honor={honor} />
+        ))}
+      </div>
+    ) : (
+      <p class="section-empty" data-reveal>
+        Add representative achievements in <code>src/data/honors.yaml</code>.
+      </p>
+    )}
+  </div>
+</section>

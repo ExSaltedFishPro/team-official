@@ -1,0 +1,53 @@
+items:
+  - time: "Spring 2021"
+    title: "Northstar started as a weekly study circle"
+    description: "A small group began meeting after class to reconstruct classic CTF challenges and document solutions."
+    type: "founding"
+
+  - time: "Autumn 2022"
+    title: "First public recruitment and internal training track"
+    description: "The team opened structured onboarding for web, pwn, reverse, crypto, and misc."
+    type: "milestone"
+
+  - time: "Winter 2022"
+    title: "The first shared challenge archive went online"
+    description: "Members started recording writeups, scripts, and post-match notes in a structured internal repository."
+    type: "community"
+
+  - time: "2023"
+    title: "First regional championship"
+    description: "A breakthrough result that validated the team's training system."
+    type: "competition"
+    link: "https://example.com/news/regional-win"
+
+  - time: "Summer 2023"
+    title: "Offline workshops became a regular format"
+    description: "Senior members began running small, focused sessions on reversing, heap basics, and web debugging."
+    type: "milestone"
+
+  - time: "2024"
+    title: "Writeups and training notes became a shared archive"
+    description: "The team standardized note taking, challenge review, and post-competition retrospectives."
+    type: "milestone"
+
+  - time: "Late 2024"
+    title: "The team appeared in a student technology feature"
+    description: "A campus media story introduced the team's training habits and collaboration style."
+    type: "media"
+    link: "https://example.com/media/student-feature"
+
+  - time: "2025"
+    title: "Featured by the school for competition achievements"
+    description: "External coverage highlighted the team's long-term, student-led training model."
+    type: "media"
+    link: "https://example.com/media/northstar"
+
+  - time: "2025 Season"
+    title: "Attack-defense practice entered the regular schedule"
+    description: "The team added infrastructure drills, service hardening, and timed incident recovery into weekly routines."
+    type: "competition"
+
+  - time: "Now"
+    title: "Preparing the next generation of members"
+    description: "The focus remains steady: practice fundamentals, share methods, and stay curious."
+    type: "community"

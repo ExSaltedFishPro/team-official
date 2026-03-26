@@ -1,0 +1,30 @@
+---
+interface Props {
+  eyebrow?: string;
+  title: string;
+  description?: string;
+  align?: "left" | "center";
+  invert?: boolean;
+}
+
+const {
+  eyebrow,
+  title,
+  description,
+  align = "left",
+  invert = false,
+} = Astro.props;
+---
+
+<div
+  class:list={[
+    "section-heading",
+    align === "center" && "section-heading--center",
+    invert && "section-heading--invert",
+  ]}
+  data-reveal
+>
+  {eyebrow && <p class="section-heading__eyebrow">{eyebrow}</p>}
+  <h2 class="section-heading__title">{title}</h2>
+  {description && <p class="section-heading__description">{description}</p>}
+</div>

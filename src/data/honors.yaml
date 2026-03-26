@@ -1,0 +1,68 @@
+items:
+  - name: "National University Cyber Competition"
+    awardType: "First Prize"
+    level: "National Final"
+    location: "Hangzhou"
+    time: "2025"
+    description: "Representative result from the team's strongest season, built on consistent preparation rather than short bursts."
+    link: "https://example.com/news/national-final-2025"
+    featured: true
+
+  - name: "West Lake Security Challenge"
+    awardType: "Top 3"
+    level: "Invitational"
+    location: "Online"
+    time: "2024"
+    description: "Strong multi-category finish with contributions across web, reverse, and misc."
+    link: "https://example.com/news/west-lake-2024"
+
+  - name: "Blue Ridge Collegiate CTF"
+    awardType: "Champion"
+    level: "Regional"
+    location: "Nanjing"
+    time: "2023"
+    description: "The team's first major offline podium."
+    featured: true
+
+  - name: "Open Source Security League"
+    awardType: "Outstanding Writeup Award"
+    level: "Community"
+    time: "2023"
+    description: "Recognized for clear post-match writeups and educational challenge analysis."
+    link: "https://example.com/news/writeup-award"
+
+  - name: "Rookie Cyber Cup"
+    awardType: "Best New Team"
+    level: "Regional"
+    location: "Shanghai"
+    time: "2022"
+    description: "Early recognition for the founding cohort."
+
+  - name: "Midnight Qualifier"
+    awardType: "Finalist"
+    level: "National Qualifier"
+    location: "Online"
+    time: "2024"
+    description: "A dense qualifier with strong finishes in reverse and pwn."
+
+  - name: "Campus Security Practice Week"
+    awardType: "Excellent Team"
+    level: "University"
+    time: "2023"
+    description: "Recognized for steady participation, internal sharing, and challenge review quality."
+
+  - name: "Eastern Collegiate Attack-Defense"
+    awardType: "Second Prize"
+    level: "Regional"
+    location: "Suzhou"
+    time: "2025"
+    description: "Marked the team's first stable attack-defense result across multiple rounds."
+    featured: true
+
+  - name: "Student Innovation Showcase"
+    awardType: "Featured Project"
+    level: "Campus"
+    location: "Offline"
+    time: "2024"
+    description: "Training archive and challenge review workflow were showcased as a student-led learning project."
+    link: "https://example.com/showcase/northstar"

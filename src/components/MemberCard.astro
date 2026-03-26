@@ -1,0 +1,78 @@
+---
+import type { Member } from "../types/content";
+
+interface Props {
+  member: Member;
+  featured?: boolean;
+}
+
+const { member, featured = false } = Astro.props;
+const avatar = member.avatar ?? "/images/members/default-avatar.svg";
+const linkEntries = Object.entries(member.links ?? {}).filter(
+  ([, href]) => typeof href === "string" && href.length > 0,
+);
+
+const statusLabel =
+  member.status === "alumni"
+    ? "Alumni"
+    : member.featured || member.status === "featured"
+      ? "Featured"
+      : "Current";
+
+const linkLabels: Record<string, string> = {
+  blog: "Blog",
+  github: "GitHub",
+  homepage: "Homepage",
+  email: "Email",
+};
+---
+
+<article class:list={["member-card", featured && "member-card--featured"]} data-reveal>
+  <div class="member-card__top">
+    <img
+      class="member-card__avatar"
+      src={avatar}
+      alt={`${member.nickname} avatar`}
+      width="64"
+      height="64"
+      loading="lazy"
+      decoding="async"
+      onerror="this.onerror=null;this.src='/images/members/default-avatar.svg';"
+    />
+
+    <div>
+      <p class="member-card__nickname">{member.nickname}</p>
+      {member.name && <p class="member-card__name">{member.name}</p>}
+    </div>
+
+    <span class="badge">{statusLabel}</span>
+  </div>
+
+  {(member.title || member.period) && (
+    <div class="member-card__meta">
+      {member.title && <span class="chip">{member.title}</span>}
+      {member.period && <span class="chip">{member.period}</span>}
+    </div>
+  )}
+
+  {member.directions && member.directions.length > 0 && (
+    <div class="member-card__meta">
+      {member.directions.map((item) => (
+        <span class="chip chip--muted">{item}</span>
+      ))}
+    </div>
+  )}
+
+  {member.bio && <p class="member-card__bio">{member.bio}</p>}
+  {member.quote && <p class="member-card__quote">"{member.quote}"</p>}
+
+  {linkEntries.length > 0 && (
+    <div class="member-card__links">
+      {linkEntries.map(([key, href]) => (
+        <a class="inline-link" href={href} target="_blank" rel="noreferrer">
+          {linkLabels[key] ?? key}
+        </a>
+      ))}
+    </div>
+  )}
+</article>

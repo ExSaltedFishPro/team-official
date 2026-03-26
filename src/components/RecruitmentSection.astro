@@ -1,0 +1,99 @@
+---
+import SectionHeading from "./SectionHeading.astro";
+
+import type { RecruitmentData, SiteData } from "../types/content";
+
+interface Props {
+  section: SiteData["sections"]["recruitment"];
+  recruitment: RecruitmentData;
+}
+
+const { section, recruitment } = Astro.props;
+const tracks = recruitment.tracks ?? [];
+const targets = recruitment.targets ?? [];
+const requirements = recruitment.requirements ?? [];
+const faq = recruitment.faq ?? [];
+---
+
+<section id="recruitment" class="section section--recruitment section-anchor">
+  <div class="shell">
+    <div class="recruitment-shell">
+      <div class="recruitment-layout">
+        <div class="recruitment__main">
+          <SectionHeading
+            eyebrow={section.eyebrow}
+            title={section.title}
+            description={section.description}
+            invert={true}
+          />
+
+          {recruitment.intro && (
+            <p class="recruitment__intro" data-reveal>
+              {recruitment.intro}
+            </p>
+          )}
+
+          {tracks.length > 0 && (
+            <div class="recruitment-block" data-reveal>
+              <p class="mini-label">Directions</p>
+              <div class="track-list">
+                {tracks.map((track) => (
+                  <span class="track-pill">{track}</span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {targets.length > 0 && (
+            <div class="recruitment-block" data-reveal>
+              <p class="mini-label">Who we welcome</p>
+              <ul class="target-list">
+                {targets.map((target) => (
+                  <li>{target}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
+
+        <div class="recruitment__side">
+          {requirements.length > 0 && (
+            <div class="requirement-grid">
+              {requirements.map((item) => (
+                <article class="requirement-card" data-reveal>
+                  <h3>{item.title}</h3>
+                  {item.description && <p>{item.description}</p>}
+                </article>
+              ))}
+            </div>
+          )}
+
+          {faq.length > 0 && (
+            <div class="faq-list">
+              {faq.map((item) => (
+                <details class="faq-item" data-reveal>
+                  <summary>{item.question}</summary>
+                  <p>{item.answer}</p>
+                </details>
+              ))}
+            </div>
+          )}
+
+          {recruitment.contact && (
+            <div class="contact-card" data-reveal>
+              <p class="mini-label">{recruitment.contact.label}</p>
+              {recruitment.contact.href ? (
+                <a class="contact-card__value" href={recruitment.contact.href}>
+                  {recruitment.contact.value}
+                </a>
+              ) : (
+                <p class="contact-card__value">{recruitment.contact.value}</p>
+              )}
+              {recruitment.contact.note && <p class="contact-card__note">{recruitment.contact.note}</p>}
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

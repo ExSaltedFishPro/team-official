@@ -1,0 +1,163 @@
+items:
+  - nickname: "Aurora"
+    name: "A. Lin"
+    avatar: "/images/members/aurora.svg"
+    period: "2024 - Present"
+    title: "Team Captain"
+    directions:
+      - "Web"
+      - "Forensics"
+    bio: "Keeps the team training cadence steady and turns scattered notes into reliable playbooks."
+    quote: "The cleanest exploit often starts with the calmest reading."
+    links:
+      github: "https://github.com/example/aurora"
+      homepage: "https://example.com/aurora"
+    status: "featured"
+    featured: true
+
+  - nickname: "Vector"
+    name: "M. Zhou"
+    avatar: "/images/members/vector.svg"
+    period: "2023 - Present"
+    title: "Reverse Lead"
+    directions:
+      - "Reverse"
+      - "Kernel"
+    bio: "Focused on reversing workflows, binary tooling, and teaching hard concepts with simple language."
+    quote: "Good reversing is mostly good observation."
+    links:
+      github: "https://github.com/example/vector"
+    status: "current"
+    featured: true
+
+  - nickname: "Prism"
+    name: "S. He"
+    avatar: "/images/members/prism.svg"
+    period: "2022 - Present"
+    title: "Infrastructure / Platform"
+    directions:
+      - "DevOps"
+      - "Cloud Lab"
+    bio: "Maintains the team's challenge environment, CI scripts, and internal tooling for practice sessions."
+    quote: "Reliable systems are a quiet force multiplier."
+    links:
+      github: "https://github.com/example/prism"
+      homepage: "https://example.com/prism"
+    status: "featured"
+    featured: true
+
+  - nickname: "Needle"
+    avatar: "/images/members/needle.svg"
+    period: "2022 - 2025"
+    title: "Pwn Mentor"
+    directions:
+      - "Pwn"
+      - "Linux Internals"
+    bio: "Helped shape the team's debugging habits and challenge writeup style."
+    quote: "If you can explain it clearly, you probably understand it."
+    status: "alumni"
+
+  - nickname: "Cipher"
+    name: "J. Xu"
+    period: "2024 - Present"
+    title: "Crypto / Misc"
+    directions:
+      - "Crypto"
+      - "Misc"
+    bio: "Moves between proof sketches, script automation, and quietly solving the strange tasks."
+    links:
+      blog: "https://example.com/cipher"
+    status: "current"
+
+  - nickname: "Glint"
+    name: "R. Qian"
+    avatar: "/images/members/glint.svg"
+    period: "2025 - Present"
+    title: "Web / Blue Team"
+    directions:
+      - "Web"
+      - "Security Engineering"
+    bio: "Works on challenge review, defense-minded web analysis, and onboarding docs for new members."
+    quote: "Understanding the fix usually sharpens the exploit."
+    links:
+      github: "https://github.com/example/glint"
+    status: "current"
+
+  - nickname: "Nova"
+    name: "C. Deng"
+    avatar: "/images/members/nova.svg"
+    period: "2024 - Present"
+    title: "Misc Explorer"
+    directions:
+      - "Misc"
+      - "OSINT"
+    bio: "Often picks up the odd tasks that do not fit neatly into a single category."
+    status: "current"
+
+  - nickname: "Quill"
+    name: "Y. Fang"
+    avatar: "/images/members/quill.svg"
+    period: "2023 - Present"
+    title: "Training Writer"
+    directions:
+      - "Writeups"
+      - "Knowledge Base"
+    bio: "Turns match notes into reusable internal guides and helps keep the archive readable."
+    quote: "A good writeup lets the next person start farther ahead."
+    links:
+      blog: "https://example.com/quill"
+      email: "mailto:quill@example.com"
+    status: "current"
+
+  - nickname: "Atlas"
+    name: "K. Yu"
+    avatar: "/images/members/atlas.svg"
+    period: "2021 - 2024"
+    title: "Founding Member"
+    directions:
+      - "Web"
+      - "Team Ops"
+    quote: "A team lasts longer when the process is kind."
+    links:
+      homepage: "https://example.com/atlas"
+    status: "alumni"
+    featured: true
+
+  - nickname: "Hex"
+    name: "L. Guo"
+    avatar: "/images/members/hex.svg"
+    period: "2021 - 2023"
+    title: "Crypto Lead"
+    directions:
+      - "Crypto"
+      - "Math"
+    bio: "Set the early tone for proof-first reasoning and careful reduction work."
+    quote: "Do not trust intuition until the structure agrees."
+    status: "alumni"
+
+  - nickname: "Orbit"
+    avatar: "/images/members/orbit.svg"
+    period: "2022 - 2024"
+    title: "Forensics"
+    directions:
+      - "Forensics"
+      - "Incident Notes"
+    bio: "Known for calm extraction workflows and clean evidence trails."
+    links:
+      homepage: "https://example.com/orbit"
+    status: "alumni"
+
+  - nickname: "Echo"
+    name: "T. Sun"
+    avatar: "/images/members/default-avatar.svg"
+    period: "2025 - Present"
+    directions:
+      - "Forensics"
+    bio: "Early-stage member focused on evidence handling and careful writeup habits."
+    status: "current"
+
+  - nickname: "Blank"
+    period: "2026 - Present"
+    directions:
+      - "Reverse"
+    status: "current"

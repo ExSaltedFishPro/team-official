@@ -1,0 +1,38 @@
+---
+import SectionHeading from "./SectionHeading.astro";
+
+import type { SiteData } from "../types/content";
+
+interface Props {
+  section: SiteData["sections"]["about"];
+}
+
+const { section } = Astro.props;
+const values = section.values ?? [];
+---
+
+<section id="about" class="section section--about section-anchor">
+  <div class="shell about">
+    <SectionHeading
+      eyebrow={section.eyebrow}
+      title={section.title}
+      description={section.description}
+    />
+
+    <div class="about__panel" data-reveal>
+      <p class="about__panel-label">Principles</p>
+
+      {values.length > 0 ? (
+        <div class="value-list">
+          {values.map((value) => (
+            <div class="value-chip">{value}</div>
+          ))}
+        </div>
+      ) : (
+        <p class="section-empty section-empty--compact">
+          Add values in <code>src/data/site.yaml</code> to enrich this section.
+        </p>
+      )}
+    </div>
+  </div>
+</section>

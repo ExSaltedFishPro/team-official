@@ -1,0 +1,62 @@
+---
+import SectionHeading from "./SectionHeading.astro";
+
+import type { SiteData, TimelineEvent } from "../types/content";
+
+interface Props {
+  section: SiteData["sections"]["timeline"];
+  items: TimelineEvent[];
+}
+
+const { section, items } = Astro.props;
+
+const typeLabels: Record<string, string> = {
+  founding: "Founding",
+  milestone: "Milestone",
+  competition: "Competition",
+  media: "Media",
+  community: "Community",
+};
+---
+
+<section id="timeline" class="section section--timeline section-anchor">
+  <div class="shell">
+    <SectionHeading
+      eyebrow={section.eyebrow}
+      title={section.title}
+      description={section.description}
+      align="center"
+    />
+
+    {items.length > 0 ? (
+      <ol class="timeline">
+        {items.map((item) => (
+          <li class="timeline-item" data-reveal>
+            <div class="timeline-item__card">
+              <div class="timeline-item__meta">
+                <span class="chip">{item.time}</span>
+                {item.type && (
+                  <span class="type-tag" data-type={item.type}>
+                    {typeLabels[item.type] ?? item.type}
+                  </span>
+                )}
+              </div>
+
+              <h3 class="timeline-item__title">{item.title}</h3>
+              {item.description && <p class="timeline-item__description">{item.description}</p>}
+              {item.link && (
+                <a class="inline-link timeline-item__link" href={item.link} target="_blank" rel="noreferrer">
+                  Learn more
+                </a>
+              )}
+            </div>
+          </li>
+        ))}
+      </ol>
+    ) : (
+      <p class="section-empty" data-reveal>
+        Add milestones in <code>src/data/timeline.yaml</code> to tell the team story.
+      </p>
+    )}
+  </div>
+</section>

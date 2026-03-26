@@ -1,0 +1,70 @@
+seo:
+  title: "Northstar CTF | University Team"
+  description: "Northstar CTF is a student team focused on rigorous practice, calm problem solving, and long-term security craftsmanship."
+  siteUrl: "https://example.com"
+  ogImage: "/og-card.svg"
+  favicon: "/favicon.svg"
+  lang: "en"
+
+brand:
+  name: "Northstar CTF"
+  shortName: "Northstar"
+  slogan: "Think precisely. Build quietly. Break elegantly."
+  subtitle: "A student CTF team shaped by craft, patience, and the joy of solving hard problems together."
+  logo: "/images/brand/logo-mark.svg"
+  cta:
+    label: "Explore"
+    href: "#about"
+
+navigation:
+  - label: "Home"
+    href: "#home"
+  - label: "About"
+    href: "#about"
+  - label: "Members"
+    href: "#members"
+  - label: "Honors"
+    href: "#honors"
+  - label: "Timeline"
+    href: "#timeline"
+  - label: "Join"
+    href: "#recruitment"
+
+sections:
+  about:
+    eyebrow: "About"
+    title: "We train with discipline, not noise."
+    description: "Northstar treats CTF as a long-term practice. We value fundamentals, thoughtful collaboration, and clean problem solving."
+    values:
+      - "Method over spectacle"
+      - "Curiosity with patience"
+      - "Share what you learn"
+      - "Win with composure"
+  members:
+    eyebrow: "Members"
+    title: "People who shaped the team"
+    description: "Selected members across different years, directions, and roles."
+  honors:
+    eyebrow: "Honors"
+    title: "Selected results"
+    description: "A concise record of representative moments, curated instead of over-listed."
+  timeline:
+    eyebrow: "Timeline"
+    title: "Built one season at a time"
+    description: "Key steps in how the team grew from a small study group into a lasting collective."
+  recruitment:
+    eyebrow: "Recruitment"
+    title: "Join the next chapter"
+    description: "We welcome learners with curiosity, patience, and the willingness to practice steadily."
+
+footer:
+  note: "Static, content-driven, and easy to maintain."
+  copyright: "(c) 2026 Northstar CTF. All rights reserved."
+  links:
+    - label: "GitHub"
+      href: "https://github.com/example/northstar-ctf"
+      external: true
+    - label: "Contact"
+      href: "mailto:team@example.edu"
+    - label: "Join"
+      href: "#recruitment"

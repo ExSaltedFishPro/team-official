@@ -1,0 +1,35 @@
+---
+import type { SiteData } from "../types/content";
+
+interface Props {
+  brandName: string;
+  footer: SiteData["footer"];
+}
+
+const { brandName, footer } = Astro.props;
+const links = footer.links ?? [];
+---
+
+<footer class="site-footer">
+  <div class="shell site-footer__inner">
+    <div class="site-footer__meta">
+      <a class="site-footer__brand" href="#home">{brandName}</a>
+      {footer.note && <p>{footer.note}</p>}
+      <p>{footer.copyright}</p>
+    </div>
+
+    {links.length > 0 && (
+      <div class="footer-links">
+        {links.map((link) => (
+          <a
+            href={link.href}
+            target={link.external ? "_blank" : undefined}
+            rel={link.external ? "noreferrer" : undefined}
+          >
+            {link.label}
+          </a>
+        ))}
+      </div>
+    )}
+  </div>
+</footer>

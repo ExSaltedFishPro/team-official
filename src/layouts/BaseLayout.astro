@@ -1,0 +1,126 @@
+---
+import SiteFooter from "../components/SiteFooter.astro";
+import SiteHeader from "../components/SiteHeader.astro";
+import "../styles/global.css";
+
+import type { SiteData } from "../types/content";
+
+interface Props {
+  site: SiteData;
+}
+
+const { site } = Astro.props;
+
+const lang = site.seo.lang ?? "en";
+const canonical = new URL(Astro.url.pathname, site.seo.siteUrl).toString();
+const organizationLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: site.brand.name,
+  url: site.seo.siteUrl,
+  logo: new URL(site.brand.logo, site.seo.siteUrl).toString(),
+  description: site.seo.description,
+};
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{site.seo.title}</title>
+    <meta name="description" content={site.seo.description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href={site.seo.favicon} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={site.seo.title} />
+    <meta property="og:description" content={site.seo.description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={new URL(site.seo.ogImage, site.seo.siteUrl).toString()} />
+    <meta property="og:site_name" content={site.brand.name} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#f4f5f7" />
+    <script type="application/ld+json" set:html={JSON.stringify(organizationLd)} />
+  </head>
+  <body>
+    <SiteHeader
+      brandName={site.brand.shortName ?? site.brand.name}
+      logo={site.brand.logo}
+      navigation={site.navigation}
+    />
+    <slot />
+    <SiteFooter brandName={site.brand.name} footer={site.footer} />
+    <script is:inline>
+      const initChrome = () => {
+        const header = document.querySelector("[data-site-header]");
+        const links = Array.from(document.querySelectorAll("[data-anchor-link]"));
+        const sections = Array.from(document.querySelectorAll("main section[id]"));
+        const revealTargets = Array.from(document.querySelectorAll("[data-reveal]"));
+
+        const updateHeader = () => {
+          if (header) {
+            header.toggleAttribute("data-scrolled", window.scrollY > 24);
+          }
+        };
+
+        updateHeader();
+        window.addEventListener("scroll", updateHeader, { passive: true });
+
+        if ("IntersectionObserver" in window) {
+          const revealObserver = new IntersectionObserver(
+            (entries, observer) => {
+              entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                  entry.target.classList.add("is-visible");
+                  observer.unobserve(entry.target);
+                }
+              });
+            },
+            {
+              threshold: 0.16,
+              rootMargin: "0px 0px -8% 0px",
+            },
+          );
+
+          revealTargets.forEach((target) => revealObserver.observe(target));
+
+          const sectionObserver = new IntersectionObserver(
+            (entries) => {
+              entries.forEach((entry) => {
+                if (!entry.isIntersecting) {
+                  return;
+                }
+
+                const id = entry.target.getAttribute("id");
+                if (!id) {
+                  return;
+                }
+
+                links.forEach((link) => {
+                  link.toggleAttribute(
+                    "data-active",
+                    link.getAttribute("href") === `#${id}`,
+                  );
+                });
+              });
+            },
+            {
+              threshold: 0.15,
+              rootMargin: "-32% 0px -55% 0px",
+            },
+          );
+
+          sections.forEach((section) => sectionObserver.observe(section));
+        } else {
+          revealTargets.forEach((target) => target.classList.add("is-visible"));
+        }
+      };
+
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", initChrome, { once: true });
+      } else {
+        initChrome();
+      }
+    </script>
+  </body>
+</html>

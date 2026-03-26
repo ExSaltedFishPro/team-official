@@ -1,0 +1,36 @@
+---
+import type { SiteData } from "../types/content";
+
+interface Props {
+  brand: SiteData["brand"];
+}
+
+const { brand } = Astro.props;
+---
+
+<section id="home" class="hero section-anchor">
+  <div class="shell hero__shell">
+    <div class="hero__frame">
+      <img class="hero__logo" src={brand.logo} alt="" width="84" height="84" data-reveal />
+      <p class="hero__eyebrow" data-reveal>CTF Team</p>
+      <h1 data-reveal>{brand.name}</h1>
+      <p class="hero__slogan" data-reveal>{brand.slogan}</p>
+      {brand.subtitle && (
+        <p class="hero__subtitle" data-reveal>
+          {brand.subtitle}
+        </p>
+      )}
+
+      {brand.cta && (
+        <div class="hero__actions" data-reveal>
+          <a class="button button--primary" href={brand.cta.href}>
+            {brand.cta.label}
+          </a>
+        </div>
+      )}
+    </div>
+  </div>
+
+  <div class="hero__ambient hero__ambient--left"></div>
+  <div class="hero__ambient hero__ambient--right"></div>
+</section>

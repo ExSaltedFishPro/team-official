@@ -1,0 +1,80 @@
+---
+import MemberCard from "./MemberCard.astro";
+import SectionHeading from "./SectionHeading.astro";
+
+import type { Member, SiteData } from "../types/content";
+
+interface Props {
+  section: SiteData["sections"]["members"];
+  items: Member[];
+}
+
+const { section, items } = Astro.props;
+
+const featuredMembers = items.filter((member) => member.featured || member.status === "featured");
+const currentMembers = items.filter(
+  (member) =>
+    !featuredMembers.includes(member) &&
+    (member.status === "current" || !member.status),
+);
+const alumniMembers = items.filter(
+  (member) => !featuredMembers.includes(member) && member.status === "alumni",
+);
+
+const groups = [
+  {
+    label: "Featured",
+    description: "Selected members who represent the team's culture and craft.",
+    items: featuredMembers,
+    featured: true,
+  },
+  {
+    label: "Current",
+    description: "Active members continuing the team's current season.",
+    items: currentMembers,
+    featured: false,
+  },
+  {
+    label: "Alumni",
+    description: "Past members whose work still shapes the team.",
+    items: alumniMembers,
+    featured: false,
+  },
+].filter((group) => group.items.length > 0);
+---
+
+<section id="members" class="section section--members section-anchor">
+  <div class="shell">
+    <SectionHeading
+      eyebrow={section.eyebrow}
+      title={section.title}
+      description={section.description}
+      align="center"
+    />
+
+    {groups.length > 0 ? (
+      <div class="members-stack">
+        {groups.map((group) => (
+          <div class="member-group">
+            <div class="member-group__header" data-reveal>
+              <div>
+                <h3 class="member-group__label">{group.label}</h3>
+                <p class="member-group__description">{group.description}</p>
+              </div>
+            </div>
+
+            <div class="member-grid">
+              {group.items.map((member) => (
+                <MemberCard member={member} featured={group.featured} />
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    ) : (
+      <p class="section-empty" data-reveal>
+        Member profiles will appear here once <code>src/data/members.yaml</code> is filled.
+      </p>
+    )}
+  </div>
+</section>

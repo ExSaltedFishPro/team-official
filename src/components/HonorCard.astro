@@ -1,0 +1,31 @@
+---
+import type { Honor } from "../types/content";
+
+interface Props {
+  honor: Honor;
+}
+
+const { honor } = Astro.props;
+const meta = [honor.awardType, honor.level, honor.location].filter(Boolean);
+---
+
+<article class:list={["honor-card", honor.featured && "honor-card--featured"]} data-reveal>
+  <p class="honor-card__time">{honor.time}</p>
+  <h3 class="honor-card__title">{honor.name}</h3>
+
+  {meta.length > 0 && (
+    <div class="honor-card__meta">
+      {meta.map((item) => (
+        <span class="chip chip--soft">{item}</span>
+      ))}
+    </div>
+  )}
+
+  {honor.description && <p class="honor-card__description">{honor.description}</p>}
+
+  {honor.link && (
+    <a class="inline-link honor-card__link" href={honor.link} target="_blank" rel="noreferrer">
+      Read note
+    </a>
+  )}
+</article>
