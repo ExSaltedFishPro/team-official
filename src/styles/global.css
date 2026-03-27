@@ -394,17 +394,17 @@ code {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 4.4rem;
-  padding: 0.95rem 1.2rem;
+  min-height: 4.9rem;
+  padding: 1rem 1.3rem;
   border-radius: var(--radius-md);
   background: rgba(255, 255, 255, 0.84);
   border: 1px solid var(--line);
   box-shadow: 0 10px 32px rgba(17, 24, 39, 0.04);
   text-align: center;
-  font-size: 1.02rem;
+  font-size: 1.12rem;
   font-weight: 700;
-  line-height: 1.25;
-  letter-spacing: -0.04em;
+  line-height: 1.22;
+  letter-spacing: -0.05em;
 }
 
 .section--members {
@@ -939,8 +939,8 @@ code {
   }
 
   .value-chip {
-    min-height: 3.9rem;
-    font-size: 0.98rem;
+    min-height: 4.15rem;
+    font-size: 1.04rem;
     line-height: 1.2;
   }
 

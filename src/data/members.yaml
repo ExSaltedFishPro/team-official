@@ -7,27 +7,29 @@ items:
     directions:
       - "Web"
       - "Misc"
-    #bio: "C.A.T.发展期的重要成员，在多场大型赛事中取得了关键得分。"
+    bio: "C.A.T.发展期的重要成员，核动力牛马"
     quote: "旺铺招租"
     links:
       github: "https://github.com/ExSaltedFishPro"
     status: "featured"
     featured: true
 
-  - nickname: "Vector"
-    name: "M. Zhou"
-    avatar: "/images/members/vector.svg"
-    period: "2023 - Present"
-    title: "Reverse Lead"
+  - nickname: "tgrddf55"
+    name: "S.R. Liu"
+    avatar: "/images/members/tgrddf55.jpg"
+    period: "2022 - 2025"
+    title: "Ex-Captain of 2024-2025"
     directions:
       - "Reverse"
-      - "Kernel"
-    bio: "Focused on reversing workflows, binary tooling, and teaching hard concepts with simple language."
-    quote: "Good reversing is mostly good observation."
+      - "Pwn"
+    bio: "抽卡领域大神，两张金卡补齐了巅峰CAT的最后拼图。"
+    quote: "几时归去，做个闲人"
     links:
-      github: "https://github.com/example/vector"
-    status: "current"
+      homepage: "https://tgrddf55.github.io"
+      email: "tgrddf55@gmail.com"
+    status: "featured"
     featured: true
+
 
   - nickname: "Prism"
     name: "S. He"
