@@ -1,6 +1,9 @@
 items:
 #     type: "milestone" "founding" "community" "competition" "media"
 
+  - title: "待续..."
+    type: "milestone"
+
   - time: "2026 Q1"
     title: "获得第十九届CISCNx第三届长城杯网络安全竞赛浙江赛区一等奖"
     description: "C.A.T.主队以赛区第四的高排名进入国赛全国总决赛"
@@ -13,6 +16,11 @@ items:
     link: "https://scs.njust.edu.cn/77/8c/c15613a358284/page.htm"
 
   - time: "2025 Q4"
+    title: "以全国第五的成绩获得2025年工业信息安全技能大赛决赛三等奖"
+    description: "标志着学生成员在产业界的能力和潜力得到了认可。"
+    type: "competition"
+
+  - time: "2025 Q4"
     title: "蝉联江苏省密码行业职业技能竞赛冠军"
     description: "以极大优势连续两年获得江苏省冠军"
     type: "competition"
@@ -23,6 +31,11 @@ items:
     description: "作为发起者之一，联合多所高校举办了第二届Newstar CTF招新赛，并完成2025级招新工作。"
     type: "community"
     link: "https://newstar.wiki/"
+
+  - time: "2025 Q3"
+    title: "2025江苏数据安全技术应用职业技能竞赛决赛"
+    description: "全省亚军"
+    type: "competition"
 
   - time: "2025 Q2"
     title: "第18届全国大学生软件创新大赛全国总决赛"
@@ -49,5 +62,16 @@ items:
 
   - time: "2024 Q2"
     title: "第一届长城杯信息安全铁人三项赛"
+    description: "半决赛三等奖"
     type: "competition"
 
+  - time: "2023 Q3"
+    title: "2023江苏省首届数据安全技术应用职业技能竞赛决赛三等奖"
+
+  - title: "待补充"
+    type: "milestone"
+
+  - time: "2020"
+    title: "C.A.T. Team成立"
+    description: "C.A.T. Team由一群热爱网络安全的南京理工大学学生于2020年创立，旨在通过参加CTF竞赛提升技能、交流经验，并为学校争光。"
+    type: "founding"

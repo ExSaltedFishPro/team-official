@@ -2,15 +2,16 @@ items:
   - nickname: "D0ubleD"
     name: "K.J. Li"
     avatar: "/images/members/dd.png"
-    period: "2023 - 至今"
+    period: "2023 - Present"
     title: "Captain of 2025-2026"
     directions:
       - "Web"
       - "Misc"
-    bio: "C.A.T.发展期的重要成员，核动力牛马"
+    bio: "C.A.T.发展期的重要成员，核动力牛马，为队伍争取到了大量资源。"
     quote: "旺铺招租"
     links:
       github: "https://github.com/ExSaltedFishPro"
+      email: "mailto:likaijie111@outlook.com"
     status: "featured"
     featured: true
 
@@ -26,37 +27,42 @@ items:
     quote: "几时归去，做个闲人"
     links:
       homepage: "https://tgrddf55.github.io"
-      email: "tgrddf55@gmail.com"
+      email: "mailto:tgrddf55@gmail.com"
     status: "featured"
     featured: true
 
 
-  - nickname: "Prism"
-    name: "S. He"
-    avatar: "/images/members/prism.svg"
-    period: "2022 - Present"
-    title: "Infrastructure / Platform"
-    directions:
-      - "DevOps"
-      - "Cloud Lab"
-    bio: "Maintains the team's challenge environment, CI scripts, and internal tooling for practice sessions."
-    quote: "Reliable systems are a quiet force multiplier."
-    links:
-      github: "https://github.com/example/prism"
-      homepage: "https://example.com/prism"
-    status: "featured"
-    featured: true
-
-  - nickname: "Needle"
-    avatar: "/images/members/needle.svg"
-    period: "2022 - 2025"
-    title: "Pwn Mentor"
+  - nickname: "N1co5in3"
+    name: "X.T. Zhou"
+    avatar: "/images/members/n1co5in3.jpg"
+    period: "2021 - Present"
+    title: "Pwn Lead of 2021-2026"
     directions:
       - "Pwn"
-      - "Linux Internals"
-    bio: "Helped shape the team's debugging habits and challenge writeup style."
-    quote: "If you can explain it clearly, you probably understand it."
-    status: "alumni"
+    bio: "CAT七年牢员工，活化石"
+    quote: "在有意义的痛苦中成长"
+    links:
+      homepage: "https://n1co3tine.github.io/"
+      email: "mailto:2372063920@qq.com"
+    status: "featured"
+    featured: true
+
+  - nickname: "Zechariah"
+    name: "H. Zhang"
+    avatar: "/images/members/zeriah.png"
+    period: "2023 - Present"
+    title: "Vice Captain of 2025-2026"
+    directions:
+      - "Crypto"
+      - "PWN"
+      - "REVERSE"
+    bio: "C.A.T.核心牢员工，著名格言提出者"
+    quote: "We are flamboyantly built to overcome endless mishaps."
+    links:
+      homepage: "https://zechariah-0703.github.io/"
+      email: "zechariah0703@qq.com"
+    status: "featured"
+    featured: true
 
   - nickname: "Cipher"
     name: "J. Xu"
@@ -109,20 +115,6 @@ items:
       blog: "https://example.com/quill"
       email: "mailto:quill@example.com"
     status: "current"
-
-  - nickname: "Atlas"
-    name: "K. Yu"
-    avatar: "/images/members/atlas.svg"
-    period: "2021 - 2024"
-    title: "Founding Member"
-    directions:
-      - "Web"
-      - "Team Ops"
-    quote: "A team lasts longer when the process is kind."
-    links:
-      homepage: "https://example.com/atlas"
-    status: "alumni"
-    featured: true
 
   - nickname: "Hex"
     name: "L. Guo"

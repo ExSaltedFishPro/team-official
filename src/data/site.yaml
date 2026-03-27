@@ -34,7 +34,7 @@ sections:
   about:
     eyebrow: "About"
     title: "厚积无声，锋芒自现"
-    description: "C.A.T. Team相信厚积薄发，只有通过扎实的训练和持续的积累，才能捕捉到赛场上的灵光一现。"
+    description: "C.A.T. Team是南京理工大学的网络安全校队，隶属于学校XSpace创客空间网安创新工作室，由计算机学院和网络空间安全学院的本科生和研究生组成。我们相信厚积薄发，只有通过扎实的训练和持续的积累，才能捕捉到赛场上的灵光一现。"
     values:
       - "以练砺刃"
       - "以思破局"
@@ -47,7 +47,7 @@ sections:
   honors:
     eyebrow: "Honors"
     title: "代表性的成绩与认可"
-    description: "C.A.T. Team在国内外的CTF竞赛中取得了多项代表性的成绩与认可，展现了团队的实力和潜力。"
+    description: "C.A.T. Team在国内外的CTF竞赛中取得了多项代表性的成绩与广泛认可。"
   timeline:
     eyebrow: "Timeline"
     title: "一步一步，走到今天"
