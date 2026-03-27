@@ -1,4 +1,4 @@
-intro: "Northstar is open to students who enjoy careful thinking and steady improvement. You do not need to know everything on day one. What matters more is curiosity, consistency, and the willingness to learn in public."
+intro: "C.A.T. Team欢迎对网络安全充满好奇心、有耐心并且愿意持续练习的学习者加入我们的旅程。无论你的基础如何，我们都欢迎你来一起探索网络安全的未来。"
 
 tracks:
   - "Web"
@@ -8,32 +8,27 @@ tracks:
   - "Misc"
 
 targets:
-  - "Students who enjoy solving technical problems step by step."
-  - "Beginners who want a structured path into security and CTF."
-  - "Members who are willing to write notes, share methods, and help peers grow."
-  - "People who can stay calm when a problem takes longer than expected."
-  - "Students interested in either offense, defense, tooling, or long-term security fundamentals."
+  - "喜欢一步步解决技术问题，享受过程的同学。"
+  - "想系统入门安全与 CTF 的初学者。"
+  - "愿意整理笔记、分享方法并帮助同伴一起成长的成员。"
+  - "迎难而上、不怕在困难问题上花时间的同学。"
 
 requirements:
-  - title: "Basic curiosity"
-    description: "You do not need a full skill set yet, but you should enjoy reading, testing, and asking why."
-  - title: "Steady practice"
-    description: "We value consistent weekly effort more than short bursts of enthusiasm."
-  - title: "Collaborative mindset"
-    description: "Good writeups, calm communication, and respectful teamwork matter here."
-  - title: "Patience with hard problems"
-    description: "Some progress comes slowly. We care more about disciplined iteration than instant answers."
+  - title: "有好奇心"
+    description: "不用一开始就什么都会，但要愿意看资料、动手试，也愿意多问一句“为什么”。"
+  - title: "能稳定投入"
+    description: "相比一时上头，我们更看重每周都能踏实学一点、做一点。"
+  - title: "面对难题有耐心"
+    description: "很多问题不会立刻有答案，我们更看重持续推进、反复打磨的过程。"
 
 faq:
-  - question: "Do I need prior CTF experience?"
-    answer: "No. Beginners are welcome if they are willing to learn patiently and practice regularly."
-  - question: "Which direction should I choose first?"
-    answer: "Start from the area that keeps your interest. We can help you narrow it down after a few training tasks."
-  - question: "Is this only for competition-focused students?"
-    answer: "Not only. CTF is our training ground, but we also value security basics, tooling habits, and long-term growth."
+  - question: "需要有 CTF 经验吗？"
+    answer: "不要求。有耐心、愿意学、也愿意持续练习的同学，都欢迎加入。"
+  - question: "一开始该选哪个方向？"
+    answer: "可以先从自己最感兴趣的方向入手。做过几次训练任务后，我们也会帮你一起判断和细化。"
 
 contact:
-  label: "Recruitment Mail"
-  value: "join@northstar.example"
-  href: "mailto:join@northstar.example"
-  note: "A short self-introduction, your grade, and the directions you are curious about are enough."
+  label: "联系邮箱"
+  value: "likaijie@njust.edu.cn"
+  href: "mailto:likaijie@njust.edu.cn"
+  note: "C.A.T. Team在每年的秋季学期举办招新赛、招募新成员，欢迎有兴趣的同学在此期间联系我们。如果不在招新期间，也欢迎随时发邮件咨询。"

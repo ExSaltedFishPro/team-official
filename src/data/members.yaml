@@ -1,17 +1,16 @@
 items:
-  - nickname: "Aurora"
-    name: "A. Lin"
-    avatar: "/images/members/aurora.svg"
-    period: "2024 - Present"
-    title: "Team Captain"
+  - nickname: "D0ubleD"
+    name: "K.J. Li"
+    avatar: "/images/members/dd.png"
+    period: "2023 - 至今"
+    title: "Captain of 2025-2026"
     directions:
       - "Web"
-      - "Forensics"
-    bio: "Keeps the team training cadence steady and turns scattered notes into reliable playbooks."
-    quote: "The cleanest exploit often starts with the calmest reading."
+      - "Misc"
+    #bio: "C.A.T.发展期的重要成员，在多场大型赛事中取得了关键得分。"
+    quote: "旺铺招租"
     links:
-      github: "https://github.com/example/aurora"
-      homepage: "https://example.com/aurora"
+      github: "https://github.com/ExSaltedFishPro"
     status: "featured"
     featured: true
 
