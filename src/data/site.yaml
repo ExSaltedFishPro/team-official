@@ -13,7 +13,7 @@ brand:
   subtitle: ""
   logo: "/favicon.png"
   cta:
-    label: "Explore"
+    label: "探索"
     href: "#about"
 
 navigation:
@@ -34,7 +34,7 @@ sections:
   about:
     eyebrow: "About"
     title: "厚积无声，锋芒自现"
-    description: "C.A.T. Team是南京理工大学的网络安全校队，隶属于学校XSpace创客空间网安创新工作室，由计算机学院和网络空间安全学院的本科生和研究生组成。我们相信厚积薄发，只有通过扎实的训练和持续的积累，才能捕捉到赛场上的灵光一现。"
+    description: "C.A.T. Team是南京理工大学的网络安全校队，隶属于学校X·Space创客空间网安创新工作室，由计算机学院和网络空间安全学院的本科生和研究生组成。我们相信厚积薄发，只有通过扎实的训练和持续的积累，才能捕捉到赛场上的灵光一现。"
     values:
       - "以练砺刃"
       - "以思破局"
@@ -59,7 +59,7 @@ sections:
 
 footer:
   note: "A student CTF team from Nanjing University of Science and Technology."
-  copyright: "(c) 2026 C.A.T. Team. All rights reserved."
+  copyright: "Copyright © 2026 C.A.T. Team. All rights reserved."
   links:
     - label: "CTF 平台"
       href: "https://ctf.cat-team.online"
