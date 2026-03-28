@@ -68,7 +68,12 @@ items:
   - time: "2023 Q3"
     title: "2023江苏省首届数据安全技术应用职业技能竞赛决赛三等奖"
 
-  - title: "待补充"
+  - time: "2022 Q2"
+    title: "领航杯江苏第七届网络信息安全应用能力竞赛"
+    description: "第一次获得省赛奖项，荣获二等奖"
+    type: "milestone"
+
+  - title: "......"
     type: "milestone"
 
   - time: "2020"

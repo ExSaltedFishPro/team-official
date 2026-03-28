@@ -8,7 +8,7 @@ items:
       - "Web"
       - "Misc"
     bio: "C.A.T.发展期的重要成员，核动力牛马，为队伍争取到了大量资源。"
-    quote: "旺铺招租"
+    quote: "给我去玩终末地"
     links:
       github: "https://github.com/ExSaltedFishPro"
       email: "mailto:likaijie111@outlook.com"
@@ -26,7 +26,7 @@ items:
     bio: "抽卡领域大神，两张金卡补齐了巅峰CAT的最后拼图。"
     quote: "几时归去，做个闲人"
     links:
-      homepage: "https://tgrddf55.github.io"
+      blog: "https://tgrddf55.github.io"
       email: "mailto:tgrddf55@gmail.com"
     status: "featured"
     featured: true
@@ -42,7 +42,7 @@ items:
     bio: "CAT七年牢员工，活化石"
     quote: "在有意义的痛苦中成长"
     links:
-      homepage: "https://n1co3tine.github.io/"
+      blog: "https://n1co3tine.github.io/"
       email: "mailto:2372063920@qq.com"
     status: "featured"
     featured: true
@@ -59,98 +59,156 @@ items:
     bio: "C.A.T.核心牢员工，著名格言提出者"
     quote: "We are flamboyantly built to overcome endless mishaps."
     links:
-      homepage: "https://zechariah-0703.github.io/"
+      blog: "https://zechariah-0703.github.io/"
       email: "zechariah0703@qq.com"
     status: "featured"
     featured: true
 
-  - nickname: "Cipher"
-    name: "J. Xu"
+  - nickname: "H@ns0n"
+    name: "H.S. Yang"
+    avatar: "/images/members/H@ns0n.png"
     period: "2024 - Present"
-    title: "Crypto / Misc"
+    title: "Crypto Lead of 2025-2026"
     directions:
       - "Crypto"
-      - "Misc"
-    bio: "Moves between proof sketches, script automation, and quietly solving the strange tasks."
+    bio: "C.A.T.第二个五年计划先锋者"
+    quote: "每一处细节，都值得被认真对待"
     links:
-      blog: "https://example.com/cipher"
-    status: "current"
+      blog: "https://hanson0512.github.io/"
+      email: "2394056860@qq.com"
+    status: "featured"
+    featured: true
 
-  - nickname: "Glint"
-    name: "R. Qian"
-    avatar: "/images/members/glint.svg"
-    period: "2025 - Present"
-    title: "Web / Blue Team"
-    directions:
-      - "Web"
-      - "Security Engineering"
-    bio: "Works on challenge review, defense-minded web analysis, and onboarding docs for new members."
-    quote: "Understanding the fix usually sharpens the exploit."
-    links:
-      github: "https://github.com/example/glint"
-    status: "current"
-
-  - nickname: "Nova"
-    name: "C. Deng"
-    avatar: "/images/members/nova.svg"
-    period: "2024 - Present"
-    title: "Misc Explorer"
-    directions:
-      - "Misc"
-      - "OSINT"
-    bio: "Often picks up the odd tasks that do not fit neatly into a single category."
-    status: "current"
-
-  - nickname: "Quill"
-    name: "Y. Fang"
-    avatar: "/images/members/quill.svg"
-    period: "2023 - Present"
-    title: "Training Writer"
-    directions:
-      - "Writeups"
-      - "Knowledge Base"
-    bio: "Turns match notes into reusable internal guides and helps keep the archive readable."
-    quote: "A good writeup lets the next person start farther ahead."
-    links:
-      blog: "https://example.com/quill"
-      email: "mailto:quill@example.com"
-    status: "current"
-
-  - nickname: "Hex"
-    name: "L. Guo"
-    avatar: "/images/members/hex.svg"
+  - nickname: "knowmeaning"
+    name: "Y. Liu"
+    avatar: "/images/members/knowmeaning.jpg"
     period: "2021 - 2023"
-    title: "Crypto Lead"
-    directions:
-      - "Crypto"
-      - "Math"
-    bio: "Set the early tone for proof-first reasoning and careful reduction work."
-    quote: "Do not trust intuition until the structure agrees."
-    status: "alumni"
-
-  - nickname: "Orbit"
-    avatar: "/images/members/orbit.svg"
-    period: "2022 - 2024"
-    title: "Forensics"
-    directions:
-      - "Forensics"
-      - "Incident Notes"
-    bio: "Known for calm extraction workflows and clean evidence trails."
-    links:
-      homepage: "https://example.com/orbit"
-    status: "alumni"
-
-  - nickname: "Echo"
-    name: "T. Sun"
-    avatar: "/images/members/default-avatar.svg"
-    period: "2025 - Present"
-    directions:
-      - "Forensics"
-    bio: "Early-stage member focused on evidence handling and careful writeup habits."
-    status: "current"
-
-  - nickname: "Blank"
-    period: "2026 - Present"
+    title: "Reverse Lead of 2021-2023"
     directions:
       - "Reverse"
+    bio: "逆向大腿，现在在北邮发财（x）"
+    #quote: "Understanding the fix usually sharpens the exploit."
+    #links:
+    #  github: "https://github.com/example/knowmeaning"
+    status: "alumni"
+
+  - nickname: "DingDing"
+    name: "Z.K. Ding"
+    avatar: "/images/members/dingding.bmp"
+    period: "2021 - 2024"
+    title: "Web Lead of 2021-2024"
+    directions:
+      - "Web"
+      - "Misc"
+    bio: "C.A.T.前Web手，现在专注学术。"
+    status: "alumni"
+
+  - nickname: "D1anash1ba"
+    name: "X.Y. Gu"
+    avatar: "/images/members/D1anash1ba.bmp"
+    period: "2022 - 2024"
+    title: "Ex-Vice Captain of 2023-2024"
+    directions:
+      - "Web"
+    #bio: "C.A.T.前Web手，现就读于复旦大学。"
+    bio: "C.A.T.前Web手、前副队长"
+    quote: "广告位招租"
+    status: "alumni"
+
+  - nickname: "starytra32"
+    name: "H.B. Wang"
+    avatar: "/images/members/starytra32.bmp"
+    period: "2025 - Present"
+    #title: "Web"
+    directions:
+      - "Web"
+    bio: "CAT2025级Web手。"
+    #quote: "Do not trust intuition until the structure agrees."
+    status: "current"
+
+  - nickname: "Gemera"
+    name: "W.C. Qian"
+    avatar: "/images/members/gemera.bmp"
+    period: "2025 - Present"
+    #title: ""
+    directions:
+      - "Crypto"
+    bio: "CAT2025级Crypto手。"
+    status: "current"
+
+  - nickname: "Null"
+    name: "G.W. Wang"
+    avatar: "/images/members/Null.bmp"
+    period: "2025 - Present"
+    directions:
+      - "Web"
+    bio: "CAT2025级Web手。"
+    status: "current"
+
+  - nickname: "COS"
+    name: "R. Yang"
+    avatar: "/images/members/COS.bmp"
+    period: "2025 - Present"
+    bio: "CAT2025级逆向手。"
+    quote: "确诊为幼童，做不出题天天爆零"
+    directions:
+      - "Reverse"
+    status: "current"
+
+  - nickname: "未央"
+    name: "M.Y. Wei"
+    avatar: "/images/members/wmy.bmp"
+    period: "2025 - Present"
+    bio: "CAT2025级逆向和Misc手。"
+    #quote: "确诊为幼童，做不出题天天爆零"
+    directions:
+      - "Reverse"
+      - "Misc"
+    status: "current"
+
+  - nickname: "chillichilli"
+    name: "C.C. Lv"
+    avatar: "/images/members/lcc.bmp"
+    period: "2025 - Present"
+    bio: "CAT2025级Web手。"
+    quote: "这个人很懒，什么都没有留下喵~"
+    directions:
+      - "Web"
+    status: "current"
+
+  - nickname: "Tetsuko"
+    name: "Z.T. Lian"
+    avatar: "/images/members/tetsuko.bmp"
+    period: "2025 - Present"
+    bio: "CAT2025级Web手。"
+    directions:
+      - "Web"
+    status: "current"
+
+  - nickname: "sherry"
+    name: "Y.C. Chu"
+    avatar: "/images/members/sherry.bmp"
+    period: "2025 - Present"
+    bio: "CAT2025级Web手。"
+    directions:
+      - "Web"
+    status: "current"
+
+  - nickname: "Yuan Chao"
+    name: "C.Y. Gu"
+    avatar: "/images/members/xobby.bmp"
+    period: "2025 - Present"
+    bio: "CAT2025级Web手。"
+    directions:
+      - "Web"
+    quote: "正在接受图灵老祖的诅咒中"
+    status: "current"
+
+  - nickname: "bjw521541"
+    name: "J.W. Bai"
+    avatar: "/images/members/bjw.bmp"
+    period: "2025 - Present"
+    bio: "CAT2025级Web手。"
+    directions:
+      - "Web"
     status: "current"
