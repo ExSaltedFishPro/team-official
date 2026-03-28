@@ -31,6 +31,22 @@ items:
     status: "featured"
     featured: true
 
+  - nickname: "Sh4mar3"
+    name: "G. Yu"
+    avatar: "/images/members/Sh4mar3.jpg"
+    period: "2021 - Present"
+    title: "Team Leader of 2021-2025"
+    directions:
+      - "Web"
+      - "Misc"
+    bio: "C.A.T.团队润滑剂"
+    quote: "吃好，玩好，睡好。"
+    links:
+      homepage: "https://sxyugao.top/"
+      email: "mailto:sxyugao@qq.com"
+    status: "featured"
+    featured: true
+
 
   - nickname: "N1co5in3"
     name: "X.T. Zhou"
@@ -75,7 +91,7 @@ items:
     quote: "每一处细节，都值得被认真对待"
     links:
       blog: "https://hanson0512.github.io/"
-      email: "2394056860@qq.com"
+      email: "mailto:2394056860@qq.com"
     status: "featured"
     featured: true
 

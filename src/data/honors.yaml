@@ -20,15 +20,15 @@ items:
     level: "江苏省"
     location: "无锡"
     time: "2024-2025"
-    description: "连续两年蝉联江苏省冠军，遥遥领先其他高校，展现了团队在密码学领域的深厚积累和持续竞争力。"
+    description: "连续两年蝉联江苏省冠军，遥遥领先其他高校。"
     featured: true
 
-  - name: "领航杯江苏省大学生数字素养与技能大赛"
-    awardType: "特等奖"
-    level: "江苏省"
+  - name: "2025年工业信息安全技能大赛决赛"
+    awardType: "全国第五名"
+    level: "全国总决赛"
     location: "南京"
-    time: "2024"
-    description: "力压群雄，荣获特等奖，展现了团队的全面实力。"
+    time: "2025"
+    description: "以全国第五的成绩获得决赛三等奖，标志着学生成员在产业界的能力和潜力得到了认可。"
     featured: true
 
   - name: "第18届全国大学生软件创新大赛"
@@ -39,12 +39,12 @@ items:
     description: "在全国大赛中获奖，展现了团队配合能力。"
     featured: true
 
-  - name: "2025年工业信息安全技能大赛决赛"
-    awardType: "全国第五名"
-    level: "全国总决赛"
+  - name: "领航杯江苏省大学生数字素养与技能大赛"
+    awardType: "特等奖"
+    level: "江苏省"
     location: "南京"
-    time: "2025"
-    description: "以全国第五的成绩获得决赛三等奖，标志着学生成员在产业界的能力和潜力得到了认可。"
+    time: "2024"
+    description: "力压群雄，荣获特等奖，展现了团队的全面实力。"
     featured: true
 
   - name: "江苏省大学生网络空间安全知识技能大赛"
