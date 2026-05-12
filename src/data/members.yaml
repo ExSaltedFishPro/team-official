@@ -1,4 +1,19 @@
 items:
+  - nickname: "H@ns0n"
+    name: "H.S. Yang"
+    avatar: "/images/members/H@ns0n.png"
+    period: "2024 - Present"
+    title: "Capatain of Present"
+    directions:
+      - "Crypto"
+    bio: "C.A.T.第二个五年计划先锋者"
+    quote: "每一处细节，都值得被认真对待"
+    links:
+      blog: "https://hanson0512.github.io/"
+      email: "mailto:2394056860@qq.com"
+    status: "featured"
+    featured: true
+
   - nickname: "D0ubleD"
     name: "K.J. Li"
     avatar: "/images/members/dd.png"
@@ -8,7 +23,7 @@ items:
       - "Web"
       - "Misc"
     bio: "C.A.T.发展期的重要成员，核动力牛马，为队伍争取到了大量资源。"
-    quote: "给我去玩终末地"
+    quote: "给我去玩异环"
     links:
       github: "https://github.com/ExSaltedFishPro"
       email: "mailto:likaijie111@outlook.com"
@@ -65,7 +80,7 @@ items:
 
   - nickname: "Zechariah"
     name: "H. Zhang"
-    avatar: "/images/members/zeriah.png"
+    avatar: "/images/members/zeriah.jpg"
     period: "2023 - Present"
     title: "Vice Captain of 2025-2026"
     directions:
@@ -77,21 +92,6 @@ items:
     links:
       blog: "https://zechariah-0703.github.io/"
       email: "zechariah0703@qq.com"
-    status: "featured"
-    featured: true
-
-  - nickname: "H@ns0n"
-    name: "H.S. Yang"
-    avatar: "/images/members/H@ns0n.png"
-    period: "2024 - Present"
-    title: "Crypto Lead of 2025-2026"
-    directions:
-      - "Crypto"
-    bio: "C.A.T.第二个五年计划先锋者"
-    quote: "每一处细节，都值得被认真对待"
-    links:
-      blog: "https://hanson0512.github.io/"
-      email: "mailto:2394056860@qq.com"
     status: "featured"
     featured: true
 
