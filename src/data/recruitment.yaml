@@ -26,7 +26,7 @@ faq:
     answer: "可以先从自己最感兴趣的方向入手。做过几次训练任务后，我们也会帮你一起判断和细化。"
 
 contact:
-  label: "联系邮箱"
-  value: "likaijie@njust.edu.cn"
-  href: "mailto:likaijie@njust.edu.cn"
-  note: "C.A.T. Team在每年的秋季学期举办招新赛、招募新成员，欢迎有兴趣的同学在此期间联系我们。如果不在招新期间，也欢迎随时发邮件咨询。"
+  label: "联系邮箱 && 招新群"
+  value: "2155057053"
+  #href: "mailto:likaijie@njust.edu.cn"
+  note: "C.A.T. Team在每年的秋季学期举办招新赛、招募新成员，欢迎有兴趣的同学在此期间联系我们。如果不在招新期间，也欢迎随时发邮件至likaijie@njust.edu.cn咨询。"

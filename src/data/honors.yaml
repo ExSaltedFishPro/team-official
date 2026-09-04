@@ -1,10 +1,34 @@
 items:
+  - name: "第十九届CISCNx第三届长城杯网络安全竞赛（作品赛）"
+    awardType: "全国二等奖*2"
+    level: "全国三等奖*1"
+    location: "哈尔滨"
+    time: "2026"
+    description: "C.A.T. Team 成员参与的项目全部获奖，展现了成员的强大工程能力。"
+    featured: true
+
+  - name: "第十九届全国大学生信息安全竞赛（实践赛）"
+    awardType: "决赛三等奖"
+    level: "全国总决赛"
+    location: "济南"
+    time: "2026"
+    description: "C.A.T. Team 作为江苏省唯一晋级队伍，成功进入全国前2%，展现了团队的综合实力。"
+    featured: true
+
+  - name: "第三届长城杯网络安全竞赛（防护赛）"
+    awardType: "决赛三等奖"
+    level: "全国总决赛"
+    location: "福州"
+    time: "2026"
+    description: "在数字中国大会上，C.A.T. Team 赛出了水平和风采。"
+    featured: true
+
   - name: "第十九届CISCNx第三届长城杯网络安全竞赛"
     awardType: "赛区一等奖"
-    level: "浙江赛区第四名"
+    level: "浙江赛区（江浙沪皖）第四名，江苏第一"
     location: "杭州"
     time: "2026"
-    description: "C.A.T. Team的历史突破，以高排名进入国赛全国总决赛，展现了团队的综合实力。决赛将于四月和七月举行。"
+    description: "C.A.T. Team的历史突破，以高排名进入国赛全国总决赛，展现了团队的综合实力。"
     featured: true
 
   - name: "第四届中国研究生网络安全创新大赛"

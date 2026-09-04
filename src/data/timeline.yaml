@@ -1,7 +1,19 @@
 items:
-#     type: "milestone" "founding" "community" "competition" "media"
 
-  - title: "待续..."
+  - time: "TBD"
+    title: "未完待续..."
+    type: "milestone"
+
+#     type: "milestone" "founding" "community" "competition" "media"
+  - time: "2026 Q3"
+    title: "获得第十九届全国大学生信息安全竞赛（作品赛）二等奖"
+    description: "C.A.T.成员参与的作品全部获奖，共获得全国二等奖2项、全国三等奖1项。"
+    type: "milestone"
+    link: "https://scs.njust.edu.cn/a5/d6/c15611a370134/page.htm"
+
+  - time: "2026 Q3"
+    title: "获得第十九届全国大学生信息安全竞赛（实践赛）三等奖"
+    description: "C.A.T.作为江苏独苗，成功进入全国前2%"
     type: "milestone"
 
   - time: "2026 Q1"
